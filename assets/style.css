@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-image: url(./imagenes/pexels-roman-odintsov-6147828.jpg);
+    background-position:  100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    text-align: center;
+    padding-top: 5rem;
+    margin: auto;
+    color: gold;
+font-size: 3em;
+}
+form{
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: goldenrod;
+    
+}
+input{
+    height: 2em;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: 600;
+    flex-direction: column;
+    cursor: pointer;
+}
+button{
+    height: 2em;
+    width: 10rem;
+    border-radius: 5rem;
+    background-color: gold;
+    color: rgb(153, 145, 126);
+    cursor: pointer;
+}
+button:hover{
+    height: 2.5em;
+}
+.pizza-container{
+    padding: 10px;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    color: rgb(249, 249, 243);
+    background-color: gold;
+    border-radius: 20px;
+    width: 32rem;
+    margin: auto;
+    text-transform: uppercase;
+}
+.pizza-container img{
+    height: 30vh;
+    width: 30vw;
+    border-radius: 2rem;
+}
